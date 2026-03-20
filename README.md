@@ -54,6 +54,26 @@ Business Strategy, and Corporate Finance roles.
 
 ---
 
+## Project 3 — Discount & Promo Analysis
+
+| File | Description |
+|---|---|
+| `discount_analysis/15_discount_overview.sql` | Overall discount stats across all brands |
+| `discount_analysis/16_discount_by_brand.sql` | Which brand discounts the most |
+| `discount_analysis/17_discount_vs_revenue.sql` | Discounted vs full price order comparison |
+| `discount_analysis/18_discount_customer_behaviour.sql` | Do discounted customers repeat more? |
+| `discount_analysis/19_discount_by_channel.sql` | Discount rate by acquisition channel |
+| `discount_analysis/20_discount_summary_view.sql` | Master discount analysis view |
+
+### Key Findings
+- 40.9% of all orders had a discount — above industry benchmark of 20-25%
+- Pilgrim's discounted first-time customers return 100% vs 0% for full price
+- Discounted orders have HIGHER gross AOV — customers buy premium with discounts
+- Google channel has lowest discount rate (25%) but strong AOV (₹949) — best quality channel
+- Urban Platter discounts 50% of orders but still has 0% repeat rate
+
+---
+
 ## SQL Concepts Used
 - SELECT, WHERE, GROUP BY, ORDER BY, LIMIT
 - JOINs (INNER, LEFT)
@@ -64,6 +84,9 @@ Business Strategy, and Corporate Finance roles.
 - Subqueries
 - Window Functions (SUM OVER, PARTITION BY)
 - Views (CREATE VIEW, CREATE OR REPLACE VIEW)
+- UNION ALL
+- Multiple JOINs in single query
+- CREATE OR REPLACE VIEW
 
 ---
 
