@@ -74,6 +74,26 @@ Business Strategy, and Corporate Finance roles.
 
 ---
 
+## Project 4 — Product Returns & Refund Analysis
+
+| File | Description |
+|---|---|
+| `returns_analysis/21_returns_overview.sql` | Overall returns cost across all brands |
+| `returns_analysis/22_returns_by_brand.sql` | Returns breakdown by brand and category |
+| `returns_analysis/23_returns_impact_on_margin.sql` | How returns shrink contribution margin |
+| `returns_analysis/24_returns_vs_discounts.sql` | Do discounted orders have higher return costs? |
+| `returns_analysis/25_returns_monthly_trend.sql` | Monthly returns trend with cumulative total |
+| `returns_analysis/26_returns_summary_view.sql` | Master returns analysis view |
+
+### Key Findings
+- Returns cost 2.71% of total revenue — at ₹10Cr scale that's ₹27L lost annually
+- Skincare (Pilgrim 2.91%) and Wellness (WishCare 2.88%) have highest return rates
+- Beverages (Sleepy Owl 2.20%) have lowest return rates — consumables rarely returned
+- Discounted orders generate HIGHER net margins than full price across all brands
+- March returns spiked to 3.03% despite lowest order volume — disproportionate impact
+
+```
+
 ## SQL Concepts Used
 - SELECT, WHERE, GROUP BY, ORDER BY, LIMIT
 - JOINs (INNER, LEFT)
