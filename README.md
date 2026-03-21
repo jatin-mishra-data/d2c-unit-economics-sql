@@ -120,7 +120,7 @@ Business Strategy, and Corporate Finance roles.
 ## Author
 **Jatin Mishra**
 B.Tech ECE — SRM Chennai | Ex-Bank of America | D2C & Startup Enthusiast
-[LinkedIn](https://www.linkedin.com/in/your-linkedin-url)
+[LinkedIn](https://www.linkedin.com/in/jatin-mishra-795218192)
 [GitHub](https://github.com/jatin-mishra-data)
 ```
 
